@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Modern Mobile App</title>
+
+  <!-- jQuery Mobile CSS -->
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+
+  <!-- jQuery and jQuery Mobile JS -->
+  <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+  <style>
+    body {
+      font-family: 'Verdana', sans-serif;
+      background-color: #f0f0f0;
+    }
+
+    .content-wrapper {
+      padding: 20px;
+      line-height: 1.8;
+      color: #333;
+    }
+
+    .scroll-section {
+      height: 250px;
+      overflow-y: auto;
+      background-color: #fff;
+      padding: 15px;
+      border-radius: 8px;
+      margin-bottom: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .scroll-section p {
+      margin-bottom: 15px;
+      color: #555;
+    }
+
+    .ui-footer, .ui-header {
+      background-color: #28a745 !important;
+      color: white !important;
+      font-size: 18px;
+    }
+
+    .ui-btn {
+      background-color: #28a745;
+      border-radius: 25px;
+      color: white;
+      font-size: 16px;
+    }
+
+    .ui-btn:hover {
+      background-color: #218838;
+    }
+
+    h1 {
+      color: #343a40;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Page 1 -->
+  <div data-role="page" id="home">
+
+    <div data-role="header">
+      <h1>🌟 Welcome</h1>
+    </div>
+
+    <div role="main" class="ui-content content-wrapper">
+      <p>Thank you for visiting our modern mobile app! Enjoy browsing through the features.</p>
+
+      <div class="scroll-section">
+        <p>This application is designed with a fresh new look to improve your experience.</p>
+        <p>We've made it sleek, fast, and user-friendly for mobile devices.</p>
+        <p>Scroll down to explore more of what this app has to offer!</p>
+        <p>We're committed to making it better with each update. Stay tuned for future features!</p>
+        <p>That's all for now. See you around! 🌟</p>
+      </div>
+
+      <a href="#about" class="ui-btn ui-corner-all">Learn More About Us</a>
+    </div>
+
+    <div data-role="footer">
+      <h4>Modern Mobile App - Home</h4>
+    </div>
+  </div>
+
+  <!-- Page 2 -->
+  <div data-role="page" id="about">
+
+    <div data-role="header">
+      <h1>ℹ️ About Us</h1>
+    </div>
+
+    <div role="main" class="ui-content content-wrapper">
+      <p>Welcome to the about section! Here's a little bit about our app:</p>
+
+      <div class="scroll-section">
+        <p>This app is crafted to provide an elegant, mobile-first experience.</p>
+        <p>We focus on speed, ease of use, and beautiful design, all in one package.</p>
+        <p>Our goal is to build apps that feel like native mobile apps, right in the browser!</p>
+        <p>Feel free to explore the sections to discover more features and tools.</p>
+        <p>We are constantly working on new updates to enhance your experience.</p>
+        <p>Thanks for being a part of this journey with us! 🚀</p>
+      </div>
+
+      <a href="#home" class="ui-btn ui-corner-all">Back to Home</a>
+    </div>
+
+    <div data-role="footer">
+      <h4>Modern Mobile App - About</h4>
+    </div>
+  </div>
+
+</body>
+
+</html>
